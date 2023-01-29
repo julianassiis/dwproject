@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dwproject/static/css/main.b3f13cd8.css",
-    "main.js": "/dwproject/static/js/main.d55a29c5.js",
+    "main.js": "/dwproject/static/js/main.d0ba9efe.js",
     "static/js/787.8d5bbb34.chunk.js": "/dwproject/static/js/787.8d5bbb34.chunk.js",
     "static/media/14.png": "/dwproject/static/media/14.2a28afa0fc28be4c55e7.png",
     "static/media/13.png": "/dwproject/static/media/13.f78d13d5ceb4b0406cc1.png",
     "index.html": "/dwproject/index.html",
     "main.b3f13cd8.css.map": "/dwproject/static/css/main.b3f13cd8.css.map",
-    "main.d55a29c5.js.map": "/dwproject/static/js/main.d55a29c5.js.map",
+    "main.d0ba9efe.js.map": "/dwproject/static/js/main.d0ba9efe.js.map",
     "787.8d5bbb34.chunk.js.map": "/dwproject/static/js/787.8d5bbb34.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3f13cd8.css",
-    "static/js/main.d55a29c5.js"
+    "static/js/main.d0ba9efe.js"
   ]
 }
