@@ -14,15 +14,15 @@ function Menu() {
 
     return (
         <HMenu customCrossIcon={false} isOpen={isOpen} onStateChange={({isOpen})=> setIsOpen(isOpen)} customBurgerIcon={<MyCustomIcon isOpen={isOpen} setIsOpen={setIsOpen}/>}>
-            <Link className="bm-item amiri midtext mt-3 mt-md-4 pt-4 mx-1 mx-sm-2" href="/">
+            <a className="bm-item amiri midtext mt-3 mt-md-4 pt-4 mx-1 mx-sm-2" href="https://julianassiis.github.io/dwproject/">
                 Home
-            </Link>
-            <Link className="bm-item amiri midtext mx-1 mx-sm-2" to="/searchplanet">
+            </a>
+            <a className="bm-item amiri midtext mx-1 mx-sm-2" href={"https://julianassiis.github.io/dwproject/#/searchplanet"} >
                 Planets
-            </Link>
-            <Link className="bm-item amiri midtext mx-1 mx-sm-2" to="about">
+            </a>
+            <a className="bm-item amiri midtext mx-1 mx-sm-2" href="https://julianassiis.github.io/dwproject/#/about">
                 About
-            </Link>
+            </a>
         </HMenu>
     );
 }
