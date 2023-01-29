@@ -1,0 +1,1066 @@
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bgblack{
+  background: #0C0B0C;
+  height: 100vh;
+
+}
+
+.centra{
+  height: 100vh;
+  transform-origin: 50% 50%; /* center */
+
+}
+
+.bggrain{
+  background-image: url("../public/13.png");
+  height: 100vh;
+
+}
+.bggrain2{
+  background-image: url("../public/14.png");
+  height: 100vh;
+  opacity: 10%;
+}
+
+.planet{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.timer{
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: bottom center;
+  top: 10vh;
+  left: calc(1.5vw - 29px);
+  z-index: 10;
+}
+
+.counter{
+  position: absolute;
+  top: 50vh;
+  left: 1.5vw;
+  z-index: 10;
+}
+
+.days{
+  position: absolute;
+  top: 92vh;
+  left: 1.5vw;
+  z-index: 10;
+}
+
+.planeti{
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: bottom center;
+  top: 10vh;
+  right: calc(1.2vh - 29px);
+  z-index: 10;
+}
+
+.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+}
+.frac > span {
+  display: block;
+  padding: 0.1em;
+}
+
+.frac span.bottom {
+  border-top: thin solid white;
+}
+
+.frac span.symbol {
+  display: none;
+}
+
+.who{
+  position: absolute;
+  transform: translate(-100%,-100%);
+  top: 48vh;
+  right: 6vw;
+  font-size: 2.7vw;
+}
+
+.we{
+  position: absolute;
+  transform: translate(-100%,-100%);
+  top: 60vh;
+  right: -6vw;
+}
+
+.album{
+  width: 10vw;
+}
+
+.painting{
+  width: 17vw;
+}
+
+.planetpos {
+  height: 400px;
+  position: absolute;
+  left:50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.poema {
+  position: absolute;
+  bottom: 4vw;
+  right: 17vw;
+  animation: float1 20s ease-in-out infinite;
+  transform-style: preserve-3d; /* This property allows child elements to maintain their 3D position */
+}
+
+.scuola{
+  position: absolute;
+  bottom: 15vh;
+  left: 13vw;
+  animation: float2 20s ease-in-out infinite;
+  transform-style: preserve-3d; /* This property allows child elements to maintain their 3D position */
+}
+
+.ui {
+  font-size: 16px;
+}
+
+.midtext{
+  font-size: 3vw;
+}
+
+.title {
+  font-size: 4.5vw;
+  padding-left: 10vw;
+}
+
+.quote {
+  position: absolute;
+  right: 2vw;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;  /*Aligns vertically center */
+}
+
+.oddity{
+  position: absolute;
+  top: 12vh;
+  left: 60vw;
+  animation: float2 20s ease-in-out infinite;
+  transform-style: preserve-3d; /* This property allows child elements to maintain their 3D position */
+}
+
+.purpose {
+  top: 85vh;
+  right: 30vw;
+}
+
+.midsub {
+  font-size: 0.9vw;
+}
+
+.saturn {
+  width: 400px;
+}
+
+.evans {
+  right: 30vw;
+}
+
+.empire {
+  right: 20vw;
+  top: 70vh;
+  animation: float2 20s ease-in-out infinite;
+}
+
+.crimson {
+  top: 40vh;
+  left: 73vw;
+  animation: float1 20s ease-in-out infinite;
+}
+
+.dark{
+  position: absolute;
+  top: 15vh;
+  left: 17vw;
+  animation: float1 20s ease-in-out infinite;
+  transform-style: preserve-3d; /* This property allows child elements to maintain their 3D position */
+
+}
+
+.whats {
+  left: 28vw;
+}
+
+.inedito {
+  top: 40vh;
+  left: 12vw;
+  animation: float2 20s ease-in-out infinite;
+}
+
+.canto {
+  top: 70vh;
+  animation: float1 20s ease-in-out infinite;
+}
+
+.proud {
+  right: 60vw;
+  top: 35vh;
+}
+
+.train {
+  left: 50vw;
+}
+
+.return {
+  right: 15vw;
+}
+
+.img-btn {
+  width: 38px;
+}
+
+.about {
+  font-size: 2vw;
+  padding: 0 6em 0 6em;
+}
+
+@media screen and (max-width: 1500px) {
+  .who {
+    font-size: 3.4vw;
+    right: -2vw;
+  }
+
+  .we {
+    right: -20vw;
+  }
+
+  .midsub {
+    font-size: 1.1vw;
+  }
+
+  .poema {
+    right: 10vw;
+  }
+
+  .evans {
+    right: 30vw;
+  }
+
+  .purpose {
+    right: 25vw;
+  }
+
+  .empire {
+    right: 20vw;
+    top: 70vh;
+  }
+
+  .proud {
+    right: 55vw;
+  }
+
+  .return {
+    right: 15vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .album {
+    width: 12vw;
+  }
+
+  .painting {
+    width: 20vw;
+  }
+
+  .albumtext {
+    font-size: 1.4vw;
+  }
+
+  .planetpos {
+    height: 275px;
+  }
+
+  .saturn {
+    height: 350px;
+  }
+
+  .who {
+    font-size: 3.8vw;
+    right: -9vw;
+  }
+
+  .we {
+    right: -26vw;
+  }
+
+  .midtext{
+    font-size: 3.5vw;
+  }
+
+  .midsub {
+    font-size: 1.3vw;
+  }
+
+  .evans {
+    right: 30vw;
+  }
+
+  .purpose {
+    right: 20vw;
+  }
+
+  .empire {
+    right: 20vw;
+    top: 70vh;
+  }
+
+  .proud {
+    right: 50vw;
+  }
+
+  .how {
+    right: -22vw;
+  }
+
+  .return {
+    right: 12vw;
+  }
+
+  .title {
+    font-size: 5.5vw;
+  }
+
+  .img-btn {
+    width: 34px;
+  }
+
+  .about {
+    font-size: 2.5vw;
+    padding: 0 4.5em 0 4.5em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .album {
+    width: 14vw;
+  }
+
+  .albumtext {
+    font-size: 1.7vw;
+  }
+
+  .planetpos {
+    height: 260px;
+  }
+
+  .saturn {
+    height: 320px;
+  }
+
+  .who {
+    font-size: 4vw;
+    right: -13vw;
+  }
+
+  .we {
+    right: -23vw;
+    font-size: 3.5vw;
+  }
+
+  .ui {
+    font-size: 14px;
+  }
+
+  .midtext{
+    font-size: 4vw;
+  }
+
+  .midsub {
+    font-size: 1.5vw;
+  }
+
+  .purpose {
+    right: 25vw;
+  }
+
+  .crimson {
+    left: 70vw;
+  }
+
+  .proud {
+    right: 50vw;
+  }
+
+  .kiss {
+    left: 73vw;
+  }
+
+  .ok {
+    left: 70vw;
+  }
+
+  .how {
+    right: -21vw;
+  }
+
+  .title {
+    font-size: 6.5vw;
+    padding-left: 7vw;
+  }
+
+  .quote {
+    right: 0;
+  }
+
+  .about {
+    font-size: 3vw;
+    padding: 0 3.5em 0 3.5em;
+  }
+
+  @media screen and (min-width: 768px) {
+    .poema {
+      top: 76vh;
+    }
+
+    .evans {
+      top: 72vh;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .album {
+    width: 18vw;
+  }
+
+  .painting {
+    width: 24vw;
+  }
+
+  .planetpos {
+    height: 240px;
+  }
+
+  .saturn {
+    height: 290px;
+  }
+
+  .albumtext {
+    font-size: 2vw;
+  }
+
+  .who {
+    position: absolute;
+    transform: translate(-100%, -100%);
+    top: 71%;
+    right: -20vw;
+    font-size: 5.8vw;
+  }
+
+  .we {
+    bottom: 23vh;
+    right: -30vw;
+    font-size: 5vw;
+  }
+
+  .midtext{
+    font-size: 4.5vw;
+  }
+
+  .midbot {
+    padding-top: 30vh;
+  }
+
+  .midsub {
+    font-size: 2vw;
+  }
+
+  .evans {
+    top: 80vh;
+  }
+
+  .livro1 {
+    left: 53vw;
+  }
+
+  .purpose {
+    right: 4vw;
+  }
+
+  .crimson {
+    top: 60vh;
+  }
+
+  .whats {
+    left: 20vw;
+  }
+
+  .inedito {
+    top: 82vh;
+    left: 25vw;
+  }
+
+  .ok {
+    top: 80vh;
+    left: 70vw;
+  }
+
+  .proud {
+    right: -23vw;
+  }
+
+  .kiss {
+    top: 15vh;
+    left: 20vw;
+  }
+
+  .title {
+    font-size: 7.5vw;
+    padding-left: 5vw;
+  }
+
+  .quote {
+    right: -2vw;
+    bottom: 15vh;
+  }
+
+  .img-btn {
+    width: 30px;
+  }
+
+  .about {
+    font-size: 3.5vw;
+    padding: 0 1em 0 1em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .album {
+    width: 22vw;
+  }
+
+  .painting {
+    width: 30vw;
+  }
+
+  .planetpos {
+    height: 210px;
+  }
+
+  .saturn {
+    height: 250px;
+  }
+
+  .albumtext {
+    font-size: 2.7vw;
+  }
+
+  .poema {
+    bottom: 6vw;
+  }
+
+  .who {
+    font-size: 6.8vw;
+    right: -22vw;
+  }
+
+  .we {
+    bottom: 21vh;
+    right: -40vw;
+    font-size: 6.5vw;
+  }
+
+  .ui {
+    font-size: 13px;
+  }
+
+  .midtext{
+    font-size: 6.5vw;
+  }
+
+  .midsub {
+    font-size: 3vw;
+  }
+
+  .scuola {
+    bottom: 14vh;
+  }
+
+  .evans {
+    right: 20vw;
+  }
+
+  .livro1 {
+    top: 25vh;
+    left: 45vw;
+  }
+
+  .purpose {
+    top: 73vh;
+    right: -20vw;
+  }
+
+  .crimson {
+    top: 65vh;
+  }
+
+  .proud {
+    top: 72vh;
+    right: -28vw;
+  }
+
+  .kiss {
+    top: 15vh;
+    left: 17vw;
+  }
+
+  .livro2 {
+    top: 30vh;
+    left: 40vw;
+  }
+
+  .cesario {
+    top: 28vh;
+  }
+
+  .title {
+    font-size: 9vw;
+    padding-left: 3vw;
+  }
+
+  .quote {
+    right: -6vw;
+  }
+
+  .img-btn {
+    width: 26px;
+  }
+
+  .about {
+    font-size: 4.5vw;
+    padding: 0;
+  }
+
+  @media screen and (min-width: 400px) {
+    .poema {
+      bottom: 3.5vh;
+    }
+
+    .albumtext {
+      font-size: 2.4vw;
+    }
+
+    .midsub {
+      font-size: 2.7vw;
+    }
+
+    .livro1 {
+      top: 25vh;
+      left: 53vw;
+    }
+
+    .livro2 {
+      top: 30vh;
+      left: 46vw;
+    }
+
+    .empire {
+      top: 83vh;
+    }
+
+    .cesario {
+      top: 25vh;
+    }
+
+    .img-btn {
+      width: 30px;
+    }
+  }
+}
+
+.titulo{
+  position: absolute;
+  top:0;
+  padding-left: 10px;
+  white-space: pre;
+}
+
+.amiri{
+  font-family: 'Amiri', serif;
+}
+
+.nunito{
+  font-family: 'Nunito', sans-serif;
+}
+
+aside {
+  margin-top: 10vw;
+  margin-left: 5%;
+  width: 20%;
+  float: left;
+  height: 100vh;
+}
+
+.linha{
+  border-right: 1px solid #797979;
+}
+
+.wp-image-14{
+  width: auto;
+  height: 200px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.detaildiv{
+  padding-top: 10vw;
+  padding-left: 100px;
+}
+
+.fade-out1{
+  opacity: 0.8;
+  transition: opacity 2s;
+  animation: fade-outt 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fade-outt {
+  from {transform: scale(1)}
+  to {transform: scale(0.5)}
+}
+
+.fade-out2{
+  opacity: 0.5;
+  transition: opacity 2s;
+  animation: fade-outt2 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-outt2 {
+  from {transform: scale(0.5)}
+  to {transform: scale(0)}
+}
+
+.fade-in1{
+  opacity: 0.5;
+  transition: opacity 2s;
+  animation: fade-inn 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fade-inn {
+  from {transform: scale(0)}
+  to {transform: scale(0.5)}
+}
+
+.fade-in2{
+  opacity: 1;
+  transition: opacity 2s;
+  animation: fade-inn2 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fade-inn2 {
+  from {transform: scale(0.5)}
+  to {transform: scale(1)}
+}
+
+.textin{
+  opacity: 1;
+  transition: opacity 2s;
+  animation: text-inn 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes text-inn {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.textout{
+  opacity: 0;
+  transition: opacity 2s;
+  animation: text-outt 2s forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes text-outt {
+  from {transform: scale(1)}
+  to {transform: scale(0)}
+}
+
+@keyframes float1 {
+  0% {
+    transform: translateZ(0);
+  }
+  25% {
+    transform: rotateX(10deg) rotateY(10deg) translateZ(100px);
+  }
+  50% {
+    transform: translateZ(0);
+  }
+  75% {
+    transform: rotateX(10deg) rotateY(-10deg) translateZ(100px);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateZ(0);
+  }
+  25% {
+    transform: rotateX(10deg) rotateY(-10deg) translateZ(100px);
+  }
+  50% {
+    transform: translateZ(0);
+  }
+  75% {
+    transform: rotateX(10deg) rotateY(10deg) translateZ(100px);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+/*menu hamburguer*/
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 50px;
+  margin-left: 1vw;
+}
+
+button#react-burger-menu-btn:focus {
+  outline: none;
+}
+
+/*Sidebar wrapper styles*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  margin-left: 1vw;
+  z-index: 2!important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: transparent;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #bebebe;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  position: absolute;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85)!important;
+  pointer-events: none;
+  z-index: 1!important;
+}
+
+/*************************/
+
+.titlefont{
+  font-size: 2.7vw;
+}
+
+.bgblacksearch{
+  background: #0C0B0C;
+}
+
+.searchpadding{
+  padding-top: 17vw;
+  padding-left: 7vw;
+}
+
+.bggrainsearch{
+  background-image: url("../public/13.png");
+}
+
+.custom-dropdown {
+  background-color: transparent;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom:10px;
+  padding-top: 10px;
+
+}
+
+.custom-dropdown::before, .custom-dropdown::after {
+  background-color: transparent;
+  border: none;
+}
+
+.custom-dropdown option {
+  background-color: rgb(14, 13, 13);
+  box-shadow: none!important;
+}
+
+.custom-dropdown:focus {
+  outline: 0;
+}
+
+.planetasearch{
+  height: 19vw;
+  width: auto;
+}
+
+.masterpading{
+  padding-top: 20vh;
+}
+
+.masterart{
+  max-height: 180px;
+  width: auto;
+}
+
+.sticky-planet{
+  position: fixed;
+  bottom: 5vh;
+  margin-left: 30px;
+  width: 18vw  ;
+
+}
+
+.assideimg{
+  max-width: 250px;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.smallplanet{
+  height: 33vh;
+}
+
+.displaypaint{
+  width: auto;
+  max-height: 600px;
+  max-width: 700px;
+}
+
+.miniplanet{
+  min-height: 200px;
+}
+
+@media screen and (max-width: 550px) {
+  .miniplanet{
+    min-height: 150px;
+  }
+
+}
+
+.link{
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.link:hover{
+  text-decoration: none;
+   color: rgb(77, 77, 77);
+  transform: translateX(10px);
+
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #0C0B0C;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(66, 66, 66, 0.6);
+  border-radius: 10px;
+}
+
+  
