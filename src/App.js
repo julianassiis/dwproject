@@ -11,15 +11,7 @@ import Master from "./Pages/Master";
 function App() {
 
   return (
-      <Router>
-        <Routes>
-            <Route path="/" element={<Home></Home>} />
-            <Route path="/about" element={<About></About>} />
-            <Route path="/detail" element={<Detail></Detail>} />
-            <Route path="/searchplanet" element={<SearchPlanet></SearchPlanet>} />
-            <Route path="/master" element={<Master></Master>} />
-        </Routes>
-      </Router>
+     <p>hi</p>
 
   );
 }
