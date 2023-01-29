@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { slide as HMenu } from 'react-burger-menu';
 import "../App.css";
+import {Link} from "react-router-dom";
 
 function MyCustomIcon({ isOpen, setIsOpen }) {
     const rotation = isOpen ? 90 : 0;
@@ -13,15 +14,15 @@ function Menu() {
 
     return (
         <HMenu customCrossIcon={false} isOpen={isOpen} onStateChange={({isOpen})=> setIsOpen(isOpen)} customBurgerIcon={<MyCustomIcon isOpen={isOpen} setIsOpen={setIsOpen}/>}>
-            <a className="bm-item amiri midtext mt-3 mt-md-4 pt-4 mx-1 mx-sm-2" href="/">
+            <Link className="bm-item amiri midtext mt-3 mt-md-4 pt-4 mx-1 mx-sm-2" href="/">
                 Home
-            </a>
-            <a className="bm-item amiri midtext mx-1 mx-sm-2" href="/searchplanet">
+            </Link>
+            <Link className="bm-item amiri midtext mx-1 mx-sm-2" to="/searchplanet">
                 Planets
-            </a>
-            <a className="bm-item amiri midtext mx-1 mx-sm-2" href="/about">
+            </Link>
+            <Link className="bm-item amiri midtext mx-1 mx-sm-2" to="about">
                 About
-            </a>
+            </Link>
         </HMenu>
     );
 }
